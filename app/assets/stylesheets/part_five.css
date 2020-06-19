@@ -1,0 +1,8 @@
+#explain-interest-chars {
+  display: block;
+  margin: .5em 0 .5em 0;
+}
+
+.chars-over {
+  color: red;
+}

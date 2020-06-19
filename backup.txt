@@ -1,0 +1,100 @@
+Dr.
+Mr.
+Mrs.
+Ms.
+Miss
+              <input
+                id="prefix"
+                type="text"
+                value={appState.prefix}
+                placeholder={appState.prefix}
+                onChange={this.props.update('prefix')}
+              />
+
+              <input
+                id= 'country'
+                type="text"
+                value={appState.country}
+                placeholder={appState.country}
+                onChange={this.props.update('country')}
+                />
+
+              <input
+                id= 'state_location'
+                type="text"
+                value={appState.state_location}
+                placeholder={appState.state_location}
+                onChange={this.props.update('state_location')}
+              />
+
+              <input
+                id= 'contact_method'
+                type="text"
+                value={appState.contact_method}
+                placeholder={""}
+                onChange={this.props.update('contact_method')}
+              />
+
+
+There were one or more issues with data provided that prevented
+the submission of the form.
+Additional Information about each field's issue can be found in
+the fields above.
+Please review and updated the fields in red and submit the form again.
+
+
+
+
+              <input
+                id = "start-date"
+                type="text"
+                value={appState.authorized}
+                placeholder={appState.authorized}
+                onChange={this.props.update('authorized')}
+                />
+
+
+
+
+
+              <input
+                id = "gender"
+                type="text"
+                value={(appState.gender) ? appState.gender : " "}
+                placeholder={(appState.gender) ? appState.gender : " "}
+                onChange={this.props.update('gender')}
+                />
+              <input
+                id = "race"
+                type="text"
+                value={(appState.race) ? appState.race : " "}
+                placeholder={(appState.race) ? appState.race : " "}
+                onChange={this.props.update('race')}
+                />
+
+
+
+              <input
+                id = "veteran"
+                type="text"
+                value={(appState.veteran) ? appState.veteran : " "}
+                placeholder={(appState.veteran) ? appState.veteran : " "}
+                onChange={this.props.update('veteran')}
+                />
+
+              <div onChange={this.props.update('authorized')}>
+                <label className="input-radio"><input type="radio" name="authorized" value="yes/any employer" />I am authorized to work in this country for any employer.</label>
+                <label className="input-radio"><input type="radio"  name="authorized" value="present employer only" />I am authorized to work in this country for my present employer only.</label>
+                <label className="input-radio"><input type="radio"  name="authorized" value="require sponsorship" />I require sponsorship to work in this country.</label>
+                <label className="input-radio"><input type="radio"  name="authorized" value="unknown status" />My status to work in this country is unknown.</label>
+              </div>
+
+
+
+              <input
+                id = "disability"
+                type="text"
+                value={(appState.disability) ? appState.disability : " "}
+                placeholder={(appState.disability) ? appState.disability : " "}
+                onChange={this.props.update('disability')}
+                />

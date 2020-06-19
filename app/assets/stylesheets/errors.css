@@ -1,0 +1,84 @@
+/* ///login form errors */
+
+.login-errors {
+  list-style-type: none;
+  color: red;
+  padding: 0;
+}
+
+
+
+/* /////////////////////////////container parts form application errors */
+
+.red-star {
+  color: red;
+  font-weight: 700;
+}
+.errors > .errors-text {
+  color: red;
+}
+
+.errors > input, .errors > select, .errors > textarea {
+  border: 3px solid red;
+  /* border-radius: 4px; */
+}
+
+
+#errors-modal {
+    position: fixed;
+    background-color: white;
+    width: calc(100% - 4em);
+    height: calc(100% - 4em);
+    top: 2em;
+    left: 2em;
+    text-align: center;
+    border: 1px solid lightgray;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    /* border-radius: 5px; */
+    background-color: rgb(252,252,252);
+    z-index: 9;
+}
+
+
+
+/* //errors modal */
+.button-thin-line {
+    border: 2px solid gray;
+    padding: 1em;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+#errors-modal h1 {
+  margin-top: 3em;
+}
+#errors-modal ul {
+  list-style-type: none;
+  /* line-height: 1.4; */
+  /* border-top: 1px solid gainsboro; */
+  padding: 1em;
+}
+
+#errors-modal > ul > li {
+  list-style-type: none;
+  line-height: 1.4;
+  margin-bottom: 1.5em;
+}
+.errors-modal-hide {
+  display: none;
+
+}
+
+.modal-errors-ul {
+  /* list-style-type: none; */
+  padding: 1em;
+}
+
+.modal-errors-ul li {
+  color: darkred;
+  list-style-type: none;
+
+}

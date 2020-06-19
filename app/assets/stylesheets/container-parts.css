@@ -1,0 +1,135 @@
+@media screen and (max-width:500px){
+
+  .input-cell > textarea {
+    width: calc(100% - 1.4em);
+  }
+
+
+}
+@media screen and (min-width:501px){
+  .input-cell > textarea {
+    width: 30em;
+  }
+  table {
+    padding-left: 1em;
+  }
+}
+
+
+.application-container h4 {
+  clear: both;
+  cursor: pointer;
+  padding: 1em;
+  border-radius: 5px;
+  text-align: center;
+  background-color: cadetblue;
+  font-weight: 700;
+  color: white;
+  margin: .5em 0;
+}
+
+.application-container h4:hover {
+  background-color: rgb(105,168,170);
+
+}
+
+
+.part-container {
+  margin: 3em 0;
+}
+
+
+.part-hide {
+  display: none;
+}
+
+.input-cell {
+  display: block;
+}
+
+.input-cell > input,
+.input-cell > textarea,
+.input-cell > select {
+
+  display: block;
+  margin: .5em 0 1.5em 0;
+  padding: .7em;
+  border-radius: 5px;
+  border: 1px solid darkgray;
+  color: darkslategray;
+}
+
+.input-cell > textarea {
+  height: 12em;
+}
+
+.input-radio {
+
+  display: block;
+  margin: .75em 0 .75em 0;
+  padding: .7em;
+}
+
+
+.input-general-text{
+  margin-top: 2.5em;
+}
+
+#address_line1 {
+  margin: .5em 0 .5em 0
+}
+
+
+
+/* /////////part 7 */
+
+.input-general-text-part7 {
+  text-align: justify;
+  line-height: 1.6;
+  margin: 3.5em 0;
+}
+
+.ethnicity-description-part7 {
+  padding-left: 2em;
+  margin: 1.5em 0;
+}
+
+#part-seven-race {
+  margin-top: 4em;
+}
+
+#part-seven-race > div > label {
+  font-weight: 700;
+}
+
+/* //part 8 */
+
+table {
+  max-width: 100%;
+  margin: 3em 0;
+  display: block;
+  overflow: auto;
+}
+tr {
+  height: 4em;
+}
+
+td {
+  vertical-align: initial;
+}
+
+
+.part-eight-form p {
+  text-align: justify;
+}
+
+/* //////////////////////unique button styling  */
+
+.upload-file-button {
+  display: inline-block;
+  margin: .5em .5em .5em 0;
+}
+#part-four-submit {
+  display: inline-block;
+  margin: 0 1em 0 0;
+}

@@ -1,0 +1,9 @@
+.review-container h3 {
+  margin-top: 3em;
+  border-top: 1px solid gainsboro;
+  padding: 2em 0;
+}
+
+.review-heading-bold {
+  font-weight: 700;
+}

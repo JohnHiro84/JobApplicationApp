@@ -1,0 +1,88 @@
+
+.header-group {
+    color: floralwhite;
+    float: right;
+    display: block;
+    width: 100%;
+    margin-bottom: 3em;
+    padding: 5px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    border-bottom: 1px solid lightgray;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+.header-logout-button {
+
+    display: inline-block;
+    margin: .5em 1em;
+    padding: .8em;
+    border-radius: 5px;
+    border: 0;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(148,148,148);
+}
+
+.header-logout-button:hover {
+  background-color: rgb(158,158,158);;
+}
+
+.header-name {
+  color: darkslategray;
+  font-size: 18px;
+}
+
+.header-name, .header-link {
+  display: inline-block;
+  margin: .5em;
+  padding-left: .1em;
+  padding-right: .1em;
+}
+
+#header-icon {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 74px;
+      height: 45px;
+      display: inline-block;
+      vertical-align: center;
+      margin-left: .5em;
+}
+
+
+.header-left {
+  display: inline-block;
+  float:left;
+  text-decoration: none;
+
+}
+
+.header-right {
+  float:right;
+}
+.header-right > a {
+  color:white;
+  text-decoration: none;
+  font-weight: 700;
+}
+.header-right > a:hover {
+  color:darkgreen;
+}
+
+#header-right-landing{
+  margin: 8px;
+}
+
+hgroup {
+  margin: 0;
+}
+
+body, html, .app-container, .login-form-container, #root {
+  height: 100%;
+}

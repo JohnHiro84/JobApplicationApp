@@ -1,0 +1,38 @@
+.home-container {
+  display: block;
+}
+
+/* ///similiar to logout button */
+.apply-link {
+  display: block;
+  margin: 3em auto;
+  text-align: center;
+  text-decoration: none;
+  padding: .8em;
+  border-radius: 5px;
+  border: 0;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  background-color: cadetblue;
+}
+
+
+.apply-link:hover {
+  background-color: rgb(105,168,170);
+}
+
+.button {
+  padding: .8em;
+  border-radius: 5px;
+  border: 0;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  background-color: rgb(148,148,148);
+  margin: 2em 0 1em 0;
+}
+
+.button:hover {
+  background-color: rgb(158,158,158);
+}
